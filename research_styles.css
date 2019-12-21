@@ -1,0 +1,40 @@
+body {
+    background-color: #DBE8FF;
+}
+
+div.menu {
+    background-color: maroon;
+}
+
+div.menu a {
+    display: inline-block;
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+}
+
+div.menu a:hover {
+    background-color: #ffb3b3;
+}
+
+div.spacing {
+    height: 10px;
+}
+
+div.content {
+    background-color: #C2D7FF;
+}
+div.content a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+div.content a:hover {
+    background-color: #ffb3b3;
+}
