@@ -20,9 +20,29 @@ div.menu a:hover {
     background-color: #ffb3b3;
 }
 
+div.profile {
+    float: left;
+}
+
+div.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    text-align: center;
+    line-height: 150%;
+}
+
+div.about {
+    padding: 15px;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+    line-height: 150%;
+}
+
 img.profile {
-    display: block;
     margin: auto;
+    padding: 15px;
 }
 
 h2 {
