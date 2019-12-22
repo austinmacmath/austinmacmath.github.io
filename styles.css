@@ -1,9 +1,17 @@
+
 body {
-    background-color: #DBE8FF;
+    background: rgb(219,232,255);
+    background: linear-gradient(75deg, rgba(219,232,255,1) 45%, rgba(194,215,255,1) 45%);
+    font-family: monospace;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
+
+
 div.menu {
-    background-color: maroon;
+    background-color: #FFA7A7;
 }
 
 div.menu a {
@@ -11,8 +19,8 @@ div.menu a {
     color: white;
     padding: 30px;
     text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
+    
+    font-size: 150%;
     text-align: center;
 }
 
@@ -21,30 +29,41 @@ div.menu a:hover {
 }
 
 div.profile {
-    float: left;
+    position: fixed;
+    top: 140px;
+    right: 65vw;
+    text-align: center;
+}
+
+img.profile {
+    width: 354px;
+    height: 394px;
 }
 
 div.name {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 200%;
-    text-align: center;
     line-height: 150%;
 }
 
 div.about {
-    padding: 15px;
-    float: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
+    top: 180px;
+    left: 50vw;
     font-size: large;
-    text-align: center;
     line-height: 150%;
 }
 
 img.profile {
-    margin: auto;
     padding: 15px;
 }
 
-h2 {
-    position: relative;
+button {
+    background-color: #0085FF;
+    border: none;
+    color: white;
+    font-style: none;
+    padding: 15px 30px;
+    margin-top: 15px;
+    font-family: monospace;
+    font-size: large;
 }
