@@ -37,7 +37,7 @@ div.content a {
 }
 
 div.content a:hover {
-    background-color: #ffb3b3;
+    background-color: rgb(223, 234, 255);
 }
 
 div.soon {
