@@ -47,11 +47,13 @@ div.name {
 }
 
 div.about {
+    padding: 20px;
     position: fixed;
-    top: 180px;
+    top: 160px;
     left: 50vw;
     font-size: large;
     line-height: 150%;
+    background-color: #f5e9dc;
 }
 
 img.profile {
