@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Austin Mac</title>
-        <link rel="stylesheet" href="styles.css">
+        <title>Other</title>
+        <link rel="stylesheet" href="other_styles.css">
         <link rel="icon" href="Logo.png">
-
+        <script src="other.js" type="text/javascript"></script>
     </head>
-<body>
+<body id="body1">
     <div class="left"></div>
     <div class="right"></div>
     <div class="menu">
@@ -16,15 +16,27 @@
         <a href="https://www.strava.com/athletes/mac_austin">Running</a>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Humor</a>
         <a href="other.html">Other</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">More Other</a>
     </div>
-
-    <div class="content">
+    <canvas id="myCanvas"></canvas>
+    <audio id="myAudio">
+        <source src="water.mov" type="audio/mpeg">
+    </audio>
+    <div id="content1" class="content">
         <div class="profile">       
-            <img class="profile" src="profilecopy.jpg" alt="This is me!"> 
+            <img id="img1" class="profile" src="profilecopy_low.jpg" alt="This is me!"> 
+            <script>rotate("img1", 20)</script>
             <br>
-            This is me.
+            Is this me?
+            <br>
+            <div style="display:none">
+                <img id="source" src="dannydorito.png" width="125" height="102">
+            </div>
+            <script>createCanvas()</script>            
+            <button id="Danny" onclick="draw(); changeColor()">Spawn <br> Danny Dorito</button>
+
         </div>
-        <div class="about">
+        <div id="about1" class="about">
             <div class="name">Austin Mac</div>
 
             <br>
@@ -39,7 +51,10 @@
             above! <br> <br>
 
             <button onclick="window.location.href = 'Austin_Mac_Resume_Website.pdf';">Resume</button>
-        </div>        
+        </div>
+        <!--
+            <script>move()</script>
+        -->        
 
     </div>
     
