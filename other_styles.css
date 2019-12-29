@@ -1,7 +1,7 @@
 
 body {
     background: rgb(219,232,255);
-    background: linear-gradient(75deg, rgba(36,23,0,1) 45%, rgba(61,40,0,1) 45%);
+    background: linear-gradient(105deg, rgba(36,23,0,1) 45%, rgba(61,40,0,1) 45%);
     font-family: monospace;
     margin: 0;
     background-repeat: no-repeat;
