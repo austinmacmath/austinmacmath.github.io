@@ -7,11 +7,9 @@ function rotate(el, speed) {
 }
 
 function move() {
-    var elem = document.getElementById("about1");   
+    var elem = document.getElementById("monkaS1");   
     var pos_top = elem.getBoundingClientRect().top;
-    //var pos_bottom = elem.getBoundingClientRect().bottom;
     var pos_left = elem.getBoundingClientRect().left;
-    //var pos_right = elem.getBoundingClientRect().right;
 
     var id = setInterval(frame, 10);
 
