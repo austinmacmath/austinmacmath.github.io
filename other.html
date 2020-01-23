@@ -16,7 +16,6 @@
         <a href="https://www.strava.com/athletes/mac_austin">Running</a>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Humor</a>
         <a href="other.html">Other</a>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">More Other</a>
     </div>
     <canvas id="myCanvas"></canvas>
     <audio id="myAudio">
@@ -25,15 +24,16 @@
     <div id="content1" class="content">
         <div class="profile">       
             <img id="img1" class="profile" src="profilecopy_low.jpg" alt="This is me!"> 
-            <script>rotate("img1", 20)</script>
+            <script>rotate("img1", 20); createCanvas()</script>         
             <br>
-            <script>move()</script>
             Is this me?
             <br>
             <div style="display:none">
                 <img id="source" src="dannydorito.png" width="125" height="102">
             </div>
-            <script>createCanvas()</script>            
+            <div id="ken1" >
+                <img src="kenbone.png" width="373" height="353">
+            </div>
             <button id="Danny" onclick="draw(); changeColor()">Spawn <br> Danny Dorito</button>
             
         </div>
