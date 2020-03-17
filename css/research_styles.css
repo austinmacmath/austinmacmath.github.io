@@ -1,0 +1,41 @@
+body {
+    background-color: #DBE8FF;
+    font-family: monospace;
+    margin: 0;
+}
+
+div.menu {
+    background-color: #FFA7A7;
+}
+
+div.menu a {
+    display: inline-block;
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 150%;
+    text-align: center;
+}
+
+div.menu a:hover {
+    background-color: #ffb3b3;
+}
+
+div.spacing {
+    height: 10px;
+}
+
+div.content {
+    background-color: #C2D7FF;
+}
+div.content a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    font-size: x-large;
+
+}
+
+div.content a:hover {
+    background-color: rgb(223, 234, 255);
+}

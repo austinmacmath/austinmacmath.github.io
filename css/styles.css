@@ -1,0 +1,96 @@
+
+body {
+    background: rgb(219,232,255);
+    background: linear-gradient(75deg, rgba(219,232,255,1) 45%, rgba(194,215,255,1) 45%);
+    font-family: monospace;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+div.menu {
+    background-color: #FFA7A7;
+}
+
+div.menu a {
+    display: inline-block;
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+    
+    font-size: 150%;
+    text-align: center;
+}
+
+div.menu a:hover {
+    background-color: #ffb3b3;
+}
+
+div.profile {
+    position: fixed;
+    top: 140px;
+    right: 65vw;
+    text-align: center;
+    margin-left: 10px;
+}
+
+div.socials {
+    position: fixed;
+    top: 650px;
+    right: 40vw;
+
+}
+div.LinkedIn {
+    top: 250px;
+    display: inline-block;
+    margin-right:50px;
+}
+
+div.GitHub {
+    top: 250px;
+    display: inline-block;
+    margin-right:50px;
+}
+
+div.Strava {
+    top: 250px;
+    display: inline-block;
+}
+
+
+img.profile {
+    width: 354px;
+    height: 394px;
+}
+
+div.name {
+    font-size: 200%;
+    line-height: 150%;
+}
+
+div.about {
+    padding: 20px;
+    position: fixed;
+    top: 160px;
+    left: 50vw;
+    font-size: large;
+    line-height: 150%;
+    background-color: #f5e9dc;
+}
+
+img.profile {
+    padding: 15px;
+}
+
+button {
+    background-color: #0085FF;
+    border: none;
+    color: white;
+    font-style: none;
+    padding: 15px 30px;
+    margin-top: 15px;
+    font-family: monospace;
+    font-size: large;
+}

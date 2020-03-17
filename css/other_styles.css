@@ -1,0 +1,93 @@
+
+body {
+    background: rgb(219,232,255);
+    background: linear-gradient(105deg, rgba(36,23,0,1) 45%, rgba(61,40,0,1) 45%);
+    font-family: monospace;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+div.menu {
+    background-color: #005858;
+}
+
+div.menu a {
+    display: inline-block;
+    color: black;
+    padding: 30px;
+    text-decoration: none;
+    
+    font-size: 150%;
+    text-align: center;
+}
+
+div.menu a:hover {
+    background-color: #004C4C;
+}
+
+div.profile {
+    position: fixed;
+    top: 160px;
+    right: 65vw;
+    text-align: center;
+    margin-left: 10px;
+    color: white;
+}
+
+img.profile {
+    width: 354px;
+    height: 394px;
+}
+
+div.name {
+    font-size: 200%;
+    line-height: 150%;
+}
+
+div.about {
+    padding: 20px;
+    position: fixed;
+    top: 180px;
+    left: 50vw;
+    font-size: large;
+    line-height: 150%;
+    background-color: #0A1623;
+    color: white;
+    -webkit-animation:bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+    0%       {top:160px; }
+    25%, 75% {top:170px; }
+    50%      {top:175px; }
+    100%     {top:155px;}
+  }
+
+img.profile {
+    padding: 15px;
+}
+
+div.profile button {
+    background-color: #00ff00;
+    border: none;
+    color: black;
+    font-style: none;
+    padding: 15px 30px;
+    margin-top: 40px;
+    font-family: monospace;
+    font-size: large;
+}
+
+div.about button {
+    background-color: #FF7A00;
+    border: none;
+    color: black;
+    font-style: none;
+    padding: 15px 30px;
+    margin-top: 15px;
+    font-family: monospace;
+    font-size: large;
+}
