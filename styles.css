@@ -36,6 +36,30 @@ div.profile {
     margin-left: 10px;
 }
 
+div.socials {
+    position: fixed;
+    top: 650px;
+    right: 40vw;
+
+}
+div.LinkedIn {
+    top: 250px;
+    display: inline-block;
+    margin-right:50px;
+}
+
+div.GitHub {
+    top: 250px;
+    display: inline-block;
+    margin-right:50px;
+}
+
+div.Strava {
+    top: 250px;
+    display: inline-block;
+}
+
+
 img.profile {
     width: 354px;
     height: 394px;

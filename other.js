@@ -7,7 +7,7 @@ function rotate(el, speed) {
 }
 
 function move() {
-    var elem = document.getElementById("monkaS1");   
+    var elem = document.getElementById("ken1");   
     var pos_top = elem.getBoundingClientRect().top;
     var pos_left = elem.getBoundingClientRect().left;
 
@@ -20,6 +20,7 @@ function move() {
         pos_top++; 
         elem.style.top = pos_top + 'px'; 
       }
+      
     }
 }
 
@@ -48,4 +49,3 @@ function changeColor() {
       }
       document.getElementById("Danny").style.backgroundColor = getRandomColor();
 }
-
