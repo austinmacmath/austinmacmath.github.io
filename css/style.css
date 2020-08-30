@@ -1,0 +1,102 @@
+@font-face { font-family: GothamLight; src: url('Metropolis-ExtraLight.otf'); } 
+@font-face { font-family: GothamMedium; src: url('iCiel Gotham-Medium.ttf'); } 
+
+body {
+    font-family: GothamLight;
+    line-height: 1.5;
+    font-size: 150%;
+    color: #000000;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 50px;
+}
+
+div.title {
+    font-family: GothamMedium;
+    font-size: 250%;
+}
+
+a {
+    text-decoration: none;
+    color: #5D5D5D;
+}
+
+a:hover {
+    font-family: GothamMedium;
+    color: #000000;
+}
+
+div.content {
+    position: relative;
+    top: 20vh;
+    padding-left: 15vw;
+}
+
+a.LinkedIn {
+    padding: 0;
+    margin: 0;
+    filter: brightness(0%);
+    padding-right: 20px;
+}
+
+a.LinkedIn:hover {
+    filter: brightness(100%);
+}
+
+a.Github {
+    padding: 0;
+    margin: 0;
+    filter: brightness(100%);
+    padding-right: 20px;
+}
+
+a.Github:hover {
+    filter: brightness(0%);
+}
+
+a.Spotify {
+    padding: 0;
+    margin: 0;
+    filter: brightness(0%);
+    padding-right: 20px;
+}
+
+a.Spotify:hover {
+    filter: brightness(100%);
+}
+
+a.NURD {
+    padding: 0;
+    margin: 0;
+    filter: saturate(0%);
+    padding-right: 20px;
+}
+
+a.NURD:hover {
+    filter: saturate(100%);
+}
+
+a.Monkas {
+    padding: 0;
+    margin: 0;
+    filter: saturate(0%);
+    padding-right: 20px;
+}
+
+a.Monkas:hover {
+    filter: saturate(100%);
+}
