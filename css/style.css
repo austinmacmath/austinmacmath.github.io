@@ -1,5 +1,13 @@
 @font-face { font-family: GothamLight; src: url('Metropolis-ExtraLight.otf'); } 
 @font-face { font-family: GothamMedium; src: url('iCiel Gotham-Medium.ttf'); } 
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
 
 body {
     font-family: GothamLight;
@@ -28,6 +36,9 @@ li a {
 div.title {
     font-family: GothamMedium;
     font-size: 250%;
+    animation: fadeInAnimation 3s ease-out;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
 }
 
 a {
@@ -99,4 +110,24 @@ a.Monkas {
 
 a.Monkas:hover {
     filter: saturate(100%);
+}
+
+div.content span.first {
+    animation-delay: 2s;
+}
+
+div.content span.second {
+    animation-delay: 3s; 
+}
+
+div.content span.third {
+    animation-delay: 4s; 
+}
+
+div.content span.fourth {
+    animation-delay: 5s;
+}
+
+div.content span.fifth {
+    animation-delay: 6s;
 }
